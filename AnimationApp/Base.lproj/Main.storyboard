@@ -39,12 +39,22 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0T-RO-lEm">
+                                <rect key="frame" x="105" y="578.66666666666663" width="183" height="35"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start Core Animation">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Sdr-bE-IH5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FCe-gD-ZKm"/>
+                            <constraint firstItem="g0T-RO-lEm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J9l-An-Yyg"/>
                             <constraint firstItem="Sdr-bE-IH5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="kvm-vq-Nfg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g0T-RO-lEm" secondAttribute="bottom" multiplier="4:3" id="rOj-SZ-92X"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -54,6 +64,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
